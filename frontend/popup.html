@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="width: fit-content; height: fit-content; background-color: #1c253a"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Quote UI</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="stock-quote" id="i-stock-quote">
+      <div class="header" id="i-header">
+        <button class="search-button" id="start-btn">Start</button>
+        <h3 id="i-loading">Loading ...</h3>
+        <h3 id="i-waiting">Waiting for your action ...</h3>
+      </div>
+      <div class="stock-info" id="i-stock-info">
+        <div class="stock-detail">
+          <h1 id="stockName">CETX</h1>
+          <div class="price-info">
+            <span class="price" id="trendNum">2.07</span>
+            <span class="change" id="numVal">-0.08</span>
+            <span class="change" id="percenVal">(-3.73%)</span>
+          </div>
+        </div>
+        <hr />
+        <span class="sub-des">
+          <p id="companyName">Comtrex Inc.</p>
+          <p>|</p>
+          <p id="industryName">NASDAQ Capital Market</p>
+        </span>
+        <p class="last-updated">
+          <span> Last updated on </span>
+          <span id="lastUpdated"> February 18, 2025 at 10:27:29 am ET </span>
+        </p>
+        <div class="additional-info">
+          <span>Volume: <strong id="stockPrice">2.74M</strong></span>
+          <hr />
+          <span>Public Float: <strong id="publicFloat">290.62K</strong></span>
+          <hr />
+          <span
+            >Outstanding Shares:
+            <strong id="outstandingShares">244.08</strong></span
+          >
+          <hr />
+        </div>
+        <h2>News Headline</h2>
+        <hr />
+        <ul class="news-list" id="newsList">
+          <hr />
+        </ul>
+        <button id="moreButton" style="display: none">More</button>
+      </div>
+    </div>
+  </body>
+</html>

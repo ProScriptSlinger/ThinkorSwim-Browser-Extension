@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Stock Quote",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://trade.thinkorswim.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "frontend/popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
