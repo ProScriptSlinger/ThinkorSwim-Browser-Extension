@@ -1,0 +1,161 @@
+body {  
+    font-family: Arial, sans-serif;  
+    /* background-color: #f0f2f5;  */
+    margin: 0; 
+}  
+
+
+hr {
+    border: 1px solid #bdc3c7;
+    border-bottom: none;
+}
+
+.stock-quote {  
+    width: 350px;  
+    background-color: #1C253A;  
+    color: #D4DCE4;  
+    /* border-radius: 8px;   */
+    padding: 20px;  
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);   */
+}  
+
+.header {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+
+.header button {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);  
+    border-radius: 3px;
+}
+
+.symbol-input {  
+    width: 60%;  
+    padding: 6px;  
+    border-radius: 4px;  
+    border: none;  
+    outline: none;  
+}  
+
+#i-loading {
+    display: none;
+}
+
+#i-waiting {
+    display: none;
+}
+.search-button {  
+    background-color: green;  
+    border: none;  
+    cursor: pointer;  
+    color: #D4DCE4;  
+    font-size: 20px;  
+    margin-bottom: 6px;
+    /* display: none; */
+}  
+
+.stock-detail {  
+    /* margin: 5px 0;   */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 15px;
+}  
+
+.stock-detail h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.price-info {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    
+}
+
+.stock-info {
+    display: none;
+}
+
+.stock-info h4 {
+    margin: 0px;
+    margin-top: 5px;
+    
+}
+
+.price {  
+    color: #40A829; 
+    font-size: 24px; 
+}  
+
+.change {  
+    display: block;  
+    font-size: 14px;  
+    margin-bottom: 2px;  
+    color: #FF3333;  
+}  
+
+.company-des {
+    font-size: 16px;
+    color: #bdc3c7;
+}
+
+.sub-des {
+    display: flex;
+    gap: 4px;
+}
+
+.last-updated {  
+    display: flex;
+    gap: 8px;  
+    font-size: 12px;  
+    color: #c6c8c9;  
+}
+
+.news-list {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+.news-list li {  
+    margin-bottom: 10px; 
+    margin-left: 6px; 
+    display: flex;
+}  
+.news-icon {
+    min-width: 25px;
+}
+
+.news-link {  
+    color: #3498db;  
+    text-decoration: none;
+    font-size: 14px;  
+    cursor: pointer;
+}  
+
+.news-link:hover {  
+    /* text-decoration: underline; */
+    color: #D4DCE4; 
+}  
+
+.additional-info {  
+    margin-top: 20px;  
+    font-size: 14px; 
+    color: #c6c8c9; 
+}  
+
+.additional-info span {  
+    display: block;  
+    margin-bottom: 5px;  
+}
+
+.price-label {
+    margin-bottom: 4px;
+}
+
+.change-label {
+    margin-bottom: 4px;
+    white-space: nowrap;
+}

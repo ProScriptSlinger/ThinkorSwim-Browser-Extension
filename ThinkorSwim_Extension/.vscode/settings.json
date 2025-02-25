@@ -1,0 +1,5 @@
+{
+    "livePreview.defaultPreviewPath": "/frontend/popup.html",
+    "bitoAI.codeCompletion.enableAutoCompletion": true,
+    "bitoAI.codeCompletion.enableCommentToCode": true
+}
